@@ -16,11 +16,8 @@
                 }
             );
 
-
-
-
-
-			$('a').click(function(){
+			$('a').click(function(e){
+                e.preventDefault();
 				alert("we don't actually serve pizza...");
 			});
 
@@ -28,14 +25,16 @@
                 $(this).slideUp();
             });
 
-			$('h5').click(function(){
-				$('img').slideDown();
-			});
 
-			$('button').click(function(){
-				var result = $('input:checked').value()  
-				alert("Thank you for your input, we like " + result + " too!");
-			});
+
+//			$('h5').click(function(){
+//				$('img').slideDown();
+//			});
+
+//			$('button').click(function(){
+//				var result = $('input:checked').value();
+//				alert("Thank you for your input, we like " + result + " too!");
+//			});
 
 
         });
