@@ -5,22 +5,36 @@
 	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
 	<script type="text/javascript">
 	
-			$('p, h3, li').hoverfunction(){
-				$(this).css('color', 'white');
-			}, function(){
-				$(this).css('color', 'black');
-			});
+//			$('p, h3, li').hover(
+//                function(){
+//				    $(this).css('color', 'white');
+//			    },
+//                function(){
+//				    $(this).css('color', 'black');
+//			    }
+//            );
+
+
+			$('p, h3, li').hover(
+                function(){
+				    $(this).css('color', 'white');
+			    }
+            );
+
+
+
+
 
 			$('a').click(function(){
 				alert("we don't actually serve pizza...");
 			});
 
-			$('img').click(function(){
-				$(this).slideUp();
-			);
+			$('img').click(function() {
+                $(this).slideUp();
+            });
 
 			$('h5').click(function(){
-				$('img').slide Down();
+				$('img').slideDown();
 			});
 
 			$('button').click(function(){
