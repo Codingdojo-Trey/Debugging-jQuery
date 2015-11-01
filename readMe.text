@@ -1,0 +1,16 @@
+This page explains the corrections that were made to this document
+==================================================================
+ 
+	*** HTML DOCUMENT *** 
+	1. Declared the document type in line 1. 
+	2. Included '.ready' function in line 9 to prevent jQuery 
+	code from firing prior to the ducument being fully loaded.
+	3. Replaced 'hoverfunction()' with '.hover' in line 11. 
+	4. Added a closing curly bracket '}' in line 21 for 
+	function passed in click listener. 
+	5. Removed space between 'slide' and 'down()' in 'slideDown()'
+	function on line 25. 
+	6. Replaced the '.value()' method with the '.val()' method.
+
+    	*** CSS STYLES SHEET ***
+	1. Added left margins to the text in the header.  
