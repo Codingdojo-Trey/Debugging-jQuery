@@ -22,6 +22,14 @@ h2, h1, a
 	display: inline-block;
 }
 
+#top_headers h1 
+{
+	margin-left: 20px;  /* Added a left margin */
+}
+#top_headers h2 
+{
+	margin-left: 40px;  /* Added a left margin */
+}
 li
 {
 	max-width: 350px;
